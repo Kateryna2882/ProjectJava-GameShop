@@ -12,8 +12,8 @@ import java.util.Scanner;
 
 public class UserController {
 
-    UserService userService;
-    AccountService accountService;
+    public UserService userService;
+    public AccountService accountService;
     public Scanner scanner;
 
 

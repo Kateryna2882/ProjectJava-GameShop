@@ -1,5 +1,6 @@
 package org.example.service;
 
+import lombok.AllArgsConstructor;
 import org.example.model.Account;
 import org.example.util.DatabaseUtil;
 
@@ -7,7 +8,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
+@AllArgsConstructor
 public class AccountService {
 
     private final Connection connection;

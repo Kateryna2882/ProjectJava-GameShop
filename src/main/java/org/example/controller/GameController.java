@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class GameController {
 
     GameService gameService;
-    Scanner scanner;
+    public Scanner scanner;
 
     public GameController() {
         this.gameService = new GameService();

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class AccountController {
 
     AccountService accountService;
-    Scanner scanner;
+    public Scanner scanner;
 
     public AccountController() {
         this.accountService = new AccountService();
