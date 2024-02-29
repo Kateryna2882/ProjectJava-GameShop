@@ -1,5 +1,6 @@
 package org.example.service;
 
+import lombok.AllArgsConstructor;
 import org.example.model.Game;
 import org.example.util.DatabaseUtil;
 
@@ -10,6 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+@AllArgsConstructor
 public class GameService {
 
     private final Connection connection;
